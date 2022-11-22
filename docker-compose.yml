@@ -1,0 +1,7 @@
+version: "3.7"
+
+services:
+  fastapi-test-stg:
+    image: "fast-api:0.89"
+    container_name: "fast-api-stg"
+    hostname: "stg"
